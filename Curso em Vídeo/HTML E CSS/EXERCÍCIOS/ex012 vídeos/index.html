@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="LogoIcone.ico" type="image/x-icon">
+    
+    <title>Vídeos com HTML5</title>
+
+</head>
+<body>
+    <!--Tipos de formatos: MP4, M4V, WEBM E OGV-->
+    <!--PARA CONVERTER VIDEOS MP4, M4V E WEBM PODE-SE USAR O HANDBRAKE. PARA ARQUIVOS OGV PODE-SE PESQUISAR UM CONVERTOR NA WEB-->
+    <!--O TAMANHO MÁXIMO DO ARQUIVO DEVE SER ATÉ 1080P PARA NÃO TRAZER PROBLEMAS AO SITE-->
+    <!--INSERIR TODOS OS FORMATOS DE VÍDEO(OU QUALQUER MÍDIA) SEMPRE-->
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="560" poster="mapa binário.png" controls autoplay loop>
+        <source src="videos/digital_numbers.mp4" type="video/mp4">
+        <source src="videos/digital_numbers.m4v" type="video/mp4">
+        <source src="videos/digital_numbers.webm" type="video/webm"> 
+        <source src="videos/digital_numbers.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <!--ESSA FORMA CONSUME MUITO ESPAÇO E GERA UM CUSTO GRANDE SE TIVER MUITOS ACESSOS-->
+
+    <h1>Inserindo vídeos do Youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GMYMhrS00fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/323783503?h=cdbe35b8e4&color=ff0179&portrait=0" width="560" height="235" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <!--OBS:EVITAR VÍDEOS QUE POSSUEM DIREITOS AUTORAIS (QUE NÃO SEJAM PRÓPRIOS OU LIVRES)-->
+
+</body>
+</html>

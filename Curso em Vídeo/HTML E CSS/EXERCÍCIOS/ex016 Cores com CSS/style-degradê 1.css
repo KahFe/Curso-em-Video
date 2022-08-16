@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+
+
+*{
+     /*height: 100%;*/
+}
+
+body{
+     background-image: linear-gradient(to top, #853C49, #D15E73, #D0ABB2);
+     background-attachment: fixed;
+}
+
+h1{
+     color: #991C33;
+     text-align: center;
+     font-weight: 600;
+}
+
+h2{
+     color: #991C33;
+     text-shadow: 3px -1px 10px #74162786;
+     font-weight: 400;
+}
+
+main{
+     background-color: #D0ABB2;
+     width: 600px;
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 15px #52252d62;
+     margin: auto;
+     font-weight: 400;
+     font-family: 'Zilla Slab', serif; /*A aspas simples se coloca quando o nome da fonte tem mais de uma palavra*/
+     color: #ffffff;
+}
+
+p{
+     text-align: justify;
+}
