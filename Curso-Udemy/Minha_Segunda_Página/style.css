@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap');
+
+body {
+    width: 80%;
+    font-family: Mukta, sans-serif;
+    background-image: url(programming-languages-tech-purple-background-with-code-elements-lines-light_272306-166.webp);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    width: 40%;
+    padding: 8px;
+    color: rgb(247, 219, 253);
+    border-bottom: solid 5px rgb(226, 43, 186);
+    border-radius: 20px;
+}
+
+h3, h4, ol li {
+    color: white;
+}
+
+ol {
+    padding-left: 0;
+}
+
+li {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a {
+    color: rgb(247, 219, 253);
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: blueviolet;
+}
+
+a:active {
+    color: rgb(226, 43, 186);
+}
